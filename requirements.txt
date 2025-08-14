@@ -1,9 +1,8 @@
-# Core ML Libraries with specific versions for compatibility
-tensorflow==2.15.0
+# Using slightly older, more stable versions to avoid dependency conflicts
+tensorflow==2.13.0
+tf-keras==2.13.1
 transformers==4.38.2
 torch==2.2.1
-tf-keras==2.15.0
-
 # App and Utility Libraries
 streamlit==1.32.2
 Pillow==10.2.0
