@@ -1,0 +1,7 @@
+tensorflow
+transformers
+streamlit
+Pillow
+torch
+numpy
+tf-keras
