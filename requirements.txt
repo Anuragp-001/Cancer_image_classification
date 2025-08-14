@@ -1,9 +1,10 @@
-# Using slightly older, more stable versions to avoid dependency conflicts
-tensorflow==2.13.0
-tf-keras==2.13.1
-transformers==4.38.2
-torch==2.2.1
+# A highly stable combination to resolve dependency conflicts
+tensorflow==2.12.0
+tf-keras==2.12.0
+transformers==4.30.0
+torch==2.1.0
+numpy==1.23.5
+
 # App and Utility Libraries
 streamlit==1.32.2
 Pillow==10.2.0
-numpy==1.26.4
