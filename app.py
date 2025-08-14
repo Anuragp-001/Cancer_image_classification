@@ -1,4 +1,6 @@
 # app.py
+import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"   # make Transformers use tf-keras (Keras 2 API)
 import streamlit as st
 import tensorflow as tf
 from transformers import AutoImageProcessor
