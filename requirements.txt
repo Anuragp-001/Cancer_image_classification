@@ -1,7 +1,10 @@
-tensorflow
-transformers
-streamlit
-Pillow
-torch
-numpy
-tf-keras
+# Core ML Libraries with specific versions for compatibility
+tensorflow==2.15.0
+transformers==4.38.2
+torch==2.2.1
+tf-keras==2.15.0
+
+# App and Utility Libraries
+streamlit==1.32.2
+Pillow==10.2.0
+numpy==1.26.4
