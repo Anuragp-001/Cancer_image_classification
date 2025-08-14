@@ -1,10 +1,10 @@
-# A highly stable combination to resolve dependency conflicts
+python==3.9
+# Step 2: Python 3.9 ke liye stable library versions
 tensorflow==2.12.0
 tf-keras==2.12.0
 transformers==4.30.0
 torch==2.1.0
 numpy==1.23.5
-
-# App and Utility Libraries
+# Step 3: Baaki ki libraries
 streamlit==1.32.2
 Pillow==10.2.0
